@@ -17,10 +17,9 @@ int solution(int n, vector<int> stairs) {
 
     DP[1] = stairs[1];
     DP[2] = stairs[1] + stairs[2];
-    DP[3] = max(stairs[1] + stairs[3], stairs[2] + stairs[3]);
-
-    for (int i = 4; i <= n; i++) {
-        DP[i] = max(DP[i - 2] + stairs[i], 
+    
+    for (int i = 3; i <= n; i++) {
+        DP[i] = max(DP[i - 2] + stairs[i],
                     DP[i - 3] + stairs[i - 1] + stairs[i]);
     }
 
