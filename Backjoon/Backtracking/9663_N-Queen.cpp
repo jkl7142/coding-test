@@ -7,26 +7,26 @@
 
 using namespace std;
 
-bool promising(int level, vector<int>& col) {
+bool promising(int level, vector<int>& board) {
     for (int i = 0; i < level; i++) {
-        if (col[i] == col[level] ||
-            abs(col[level] - col[i]) == level - i)
+        if (board[i] == board[level] ||
+            abs(board[level] - board[i]) == level - i)
             return false;
     }
 
     return true;
 }
 
-void nqueen(int level, int& n, vector<int>& col, int& answer) {
+void nqueen(int level, int& n, vector<int>& board, int& answer) {
     if (level == n) {
         answer++;
     }
     else {
         for (int i = 0; i < n; i++) {
-            col[level] = i;
+            board[level] = i;
 
-            if (promising(level, col)) {
-                nqueen(level + 1, n, col, answer);
+            if (promising(level, board)) {
+                nqueen(level + 1, n, board, answer);
             }
         }
     }
@@ -34,9 +34,9 @@ void nqueen(int level, int& n, vector<int>& col, int& answer) {
 
 int solution(int n) {
     int answer = 0;
-    vector<int> col(n);
+    vector<int> board(n);
     
-    nqueen(0, n, col, answer);
+    nqueen(0, n, board, answer);
 
     return answer;
 }
