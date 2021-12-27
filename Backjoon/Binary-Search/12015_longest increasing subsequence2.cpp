@@ -15,6 +15,7 @@ void solution(vector<int>& sequence) {
     int sSize = sequence.size();
 
     subSequence.push_back(sequence[0]);
+    
     for (int i = 1; i < sSize; i++) {
         if (subSequence.back() < sequence[i])
             subSequence.push_back(sequence[i]);
