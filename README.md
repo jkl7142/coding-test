@@ -17,6 +17,9 @@
 ### Linked List
 - [5397 키로거](https://github.com/jkl7142/coding-test/blob/main/Backjoon/Linked-List/5397_keylogger.cpp)
 ### Stack
+- [9012 괄호](https://github.com/jkl7142/coding-test/blob/main/Backjoon/Stack/9012_parenthesis.cpp) :star:
+- [2493 탑](https://github.com/jkl7142/coding-test/blob/main/Backjoon/Stack/2493_top.cpp)
+- [17298 오큰수](https://github.com/jkl7142/coding-test/blob/main/Backjoon/Stack/17298_NGE.cpp) :star:
 ### Queue
 ### Deque
 ### Brute Force
@@ -25,7 +28,7 @@
 ### Divide and Conquer
 ### Backtracking
 ### Sort
-### DP :star:
+### DP
 ### Greedy
 ### Math
 ### Binary Search
