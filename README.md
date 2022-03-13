@@ -4,18 +4,15 @@
 - Backjoon Online Judge. https://www.acmicpc.net
 - Programmers. https://www.programmers.co.kr
 <br>
-<br>
 
 ### Lecture
 - 바킹독의 실전 알고리즘  
 github : https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md  
 youtube : https://www.youtube.com/watch?v=LcOIobH7ues&list=PLtqbFd2VIQv4O6D6l9HcD732hdrnYb6CY
 <br>
-<br>
 
 - 동빈나 '이것이 취업을 위한 코딩테스트다'  
 youtube : https://www.youtube.com/watch?v=m-9pAwq1o3w&list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0dgC
-<br>
 <br>
 
 # Backjoon
