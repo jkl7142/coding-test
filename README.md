@@ -1,2 +1,3 @@
 # Solving the coding test
-Reference : Backjoon Online Judge. https://www.acmicpc.net/
+- Backjoon Online Judge. https://www.acmicpc.net/
+- Programmers. https://www.programmers.co.kr/
