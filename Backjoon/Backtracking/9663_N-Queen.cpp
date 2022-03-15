@@ -1,5 +1,5 @@
 /*
-*   9663¹ø - N-Queen
+*   9663ë²ˆ - N-Queen
 */
 
 #include <iostream>
@@ -45,8 +45,7 @@ int main() {
 
     int n;
     cin >> n;
-
     cout << solution(n) << "\n";
 
     return 0;
-}
+}   
