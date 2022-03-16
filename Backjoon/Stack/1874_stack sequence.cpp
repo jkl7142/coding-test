@@ -9,6 +9,48 @@
 
 using namespace std;
 
+// 풀이 1.
+
+int main() {
+
+	int n, curr = 1;
+	cin >> n;
+
+	vector<char> ans;
+	stack<int> s;
+
+	for (int i = 0; i < n; i++) {
+		int num;
+		cin >> num;
+
+		if (curr <= num) {
+			for (int j = curr; j <= num; j++) {
+				s.push(curr);
+				ans.push_back('+');
+				curr++;
+			}
+		}
+
+		if (s.top() == num) {
+			s.pop();
+			ans.push_back('-');
+		}
+	}
+
+	if (!s.empty()) {
+		cout << "NO" << "\n";
+		return 0;
+	}
+
+	for (auto c : ans) {
+		cout << c << "\n";
+	}
+
+	return 0;
+}
+
+// 풀이 2.
+/* 
 vector<string> solution(int n, vector<int>& sequence) {
     vector<string> result;
     stack<int> stack;
@@ -58,3 +100,4 @@ int main() {
 
     return 0;
 }
+*/
