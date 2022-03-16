@@ -3,15 +3,13 @@
 ### Reference
 - Backjoon Online Judge. https://www.acmicpc.net
 - Programmers. https://www.programmers.co.kr
-<br>
 
 ### Lecture
-- ¹ÙÅ·µ¶ÀÇ ½ÇÀü ¾Ë°í¸®Áò  
+- ë°”í‚¹ë…ì˜ ì‹¤ì „ ì•Œê³ ë¦¬ì¦˜  
 github : https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md  
 youtube : https://www.youtube.com/watch?v=LcOIobH7ues&list=PLtqbFd2VIQv4O6D6l9HcD732hdrnYb6CY
-<br>
 
-- µ¿ºó³ª 'ÀÌ°ÍÀÌ Ãë¾÷À» À§ÇÑ ÄÚµùÅ×½ºÆ®´Ù'  
+- ë™ë¹ˆë‚˜ 'ì´ê²ƒì´ ì·¨ì—…ì„ ìœ„í•œ ì½”ë”©í…ŒìŠ¤íŠ¸ë‹¤'  
 youtube : https://www.youtube.com/watch?v=m-9pAwq1o3w&list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0dgC
 <br>
 
@@ -19,7 +17,7 @@ youtube : https://www.youtube.com/watch?v=m-9pAwq1o3w&list=PLRx0vPvlEmdAghTr5mXQ
 ### Implementation
 ### Simulation
 ### Linked List
-- [5397 Å°·Î°Å](https://github.com/jkl7142/coding-test/blob/main/Backjoon/Linked-List/5397_keylogger.cpp)
+- [5397 í‚¤ë¡œê±°](https://github.com/jkl7142/coding-test/blob/main/Backjoon/Linked-List/5397_keylogger.cpp)
 ### Stack
 ### Queue
 ### Deque
