@@ -19,7 +19,7 @@
 ### Stack
 - [9012 괄호](https://github.com/jkl7142/coding-test/blob/main/Backjoon/Stack/9012_parenthesis.cpp) :star:
 - [2493 탑](https://github.com/jkl7142/coding-test/blob/main/Backjoon/Stack/2493_top.cpp)
-- [17298 오큰수](https://github.com/jkl7142/coding-test/blob/main/Backjoon/Stack/17298_NGE.cpp) :star:
+- [3015 오아시스](https://github.com/jkl7142/coding-test/blob/main/Backjoon/Stack/3015_oasis.cpp) :star:
 ### Queue
 ### Deque
 ### Brute Force
