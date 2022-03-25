@@ -1,5 +1,5 @@
 /*
-*   15649¹ø - N°ú M (1)
+*   15649? - N ? M (1)
 */
 
 #include <iostream>
@@ -7,6 +7,45 @@
 
 using namespace std;
 
+// ?? 1
+
+#define MAX_N 9
+
+int n, m;
+int arr[MAX_N];
+bool visited[MAX_N];
+
+void dfs(int idx) {
+    if (idx == m) {
+        for (int i = 0; i < m; i++) {
+            cout << arr[i] << " ";
+        }
+        cout << "\n";
+        return;
+    }
+
+    for (int i = 1; i <= n; i++) {  // 1 ~ n??? ?
+        if (!visited[i]) {
+            arr[idx] = i;
+            visited[i] = true;
+            dfs(idx + 1);
+            visited[i] = false;
+        }
+    }
+}
+
+int main() {
+
+    cin >> n >> m;
+ 
+    dfs(0);
+
+    return 0;
+}
+
+
+// ?? 2
+/* 
 void dfs(int n, int m, int depth, vector<int>& answer, vector<bool>& visited) {
     
     if (depth == m) {
@@ -43,3 +82,4 @@ int main() {
 
     return 0;
 }
+*/
