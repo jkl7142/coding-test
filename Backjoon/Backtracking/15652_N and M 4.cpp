@@ -1,5 +1,5 @@
 /*
-*   15652? - N ? M (4)
+*   15652번 - N과 M (4)
 */
 
 #include <iostream>
@@ -7,7 +7,7 @@
 
 using namespace std;
 
-// ?? 1
+// 풀이 1
 
 #define MAX_N 9
 
@@ -23,9 +23,9 @@ void dfs(int idx, int cur) {
         return;
     }
 
-    for (int i = cur; i <= n; i++) {  // cur ~ n??? ?
+    for (int i = cur; i <= n; i++) {
         arr[idx] = i;
-        dfs(idx + 1, i);    // cur? ??? i? ??
+        dfs(idx + 1, i);
     }
 }
 
@@ -38,7 +38,7 @@ int main() {
     return 0;
 }
 
-// ?? 2
+// 풀이 2
 /* 
 void dfs(int n, int m, int current, int depth, vector<int>& answer, vector<bool>& visited) {
     
