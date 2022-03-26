@@ -1,5 +1,5 @@
 /*
-*   15651? - N ? M (3)
+*   15651? - N? M (3)
 */
 
 #include <iostream>
@@ -23,7 +23,7 @@ void dfs(int idx) {
         return;
     }
 
-    for (int i = 1; i <= n; i++) {  // 1 ~ n??? ?
+    for (int i = 1; i <= n; i++) {  // 1 ~ n
         arr[idx] = i;
         dfs(idx + 1);
     }
