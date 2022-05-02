@@ -46,9 +46,11 @@ int main() {
         string jap;
         cin >> jap;
         
-        if (binarySearch(0, n, jap))
+        if (binarySearch(0, n - 1, jap))
             deudbo.push_back(jap);
     }
+
+    sort(deudbo.begin(), deudbo.end());
 
     cout << deudbo.size() << "\n";
     for (string s : deudbo) {
