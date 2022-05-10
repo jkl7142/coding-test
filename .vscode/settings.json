@@ -9,6 +9,7 @@
         "string": "cpp",
         "stack": "cpp",
         "queue": "cpp",
-        "xiosbase": "cpp"
+        "xiosbase": "cpp",
+        "iosfwd": "cpp"
     }
 }
